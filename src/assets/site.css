@@ -1,0 +1,67 @@
+.align-center-main{
+  width: 1200px;
+  margin: 0 auto;
+}
+.boxShadow {
+  /* box-shadow: 1px 1px 1px 0 #ccc; */
+  -moz-box-shadow: 2px 2px 5px #ccc; 
+  -webkit-box-shadow: 2px 2px 5px #ccc; 
+  box-shadow: 2px 2px 5px #ccc;
+  border-radius: 4px;
+  /* box-sizing: border-box;  */
+}
+/* 清除浮动 */
+.clearfix:before,
+.clearfix:after {
+  display: table;
+  content: " ";
+}
+.clearfix:after {
+  clear: both;
+}
+.clearfix{
+  zoom: 1;
+}
+.main-pagination .el-pagination .el-pager .number{
+  background: #fff;
+  color: #666;
+}
+.main-pagination .el-pagination .el-pager .number:hover, .main-pagination .el-pagination .el-pager li.active{
+  background: #d0011b;
+  color: #fff;
+}
+
+/* 文字超出隐藏 */
+.textOver{
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.myButton {
+  width: 100px;
+  height: 32px;
+  background-color: #d0011b;
+  border-radius: 6px;
+  line-height: 32px;
+  color: #fff;
+  text-align: center;
+  cursor: pointer;
+}
+
+.el-breadcrumb {
+  margin: 20px 0;
+}
+
+.ajie_table .has-gutter .is-leaf {
+  background-color: #313131;
+  color: #f1f1f1;
+  text-align: center;
+}
+
+
+/* 红色按钮的颜色 */
+.el-button--danger{
+  background-color: #d9262c;
+  border-color: #d9262c;
+}

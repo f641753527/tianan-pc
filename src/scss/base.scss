@@ -1,0 +1,73 @@
+$color-primary: #20a0ff;
+$color-main: #d0011b;
+$color-red: #d9262c;
+
+@mixin line-ellipsis {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+@mixin lines-ellipsis($lines: 2) {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: $lines;
+    overflow: hidden;
+}
+
+@mixin clear-float {
+    zoom: 1;
+    &::after {
+        display: block;
+        content: ' ';
+        clear: both;
+    }
+}
+
+@mixin mask {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 200;
+    background: rgba(7, 17, 27, 0.7);
+    .container {
+        position: absolute;
+        padding: 30px;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        background: #fff;
+    }
+}
+
+@mixin modify_info {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 200;
+    background: rgba(7, 17, 27, 0.7);
+    .container {
+        position: absolute;
+        padding: 30px;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        background: #fff;
+        min-width: 420px;
+        .close {
+            position: absolute;
+            right: 10px;
+            top: 0;
+            padding: 6px;
+            font-size: 20px;
+            cursor: pointer;
+        }
+        .content {
+            padding: 20px 40px 0 0;
+        }
+    }
+}
