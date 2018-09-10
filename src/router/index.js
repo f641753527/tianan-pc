@@ -12,14 +12,14 @@ import Index from '@/pages/index/Index';
 import Navigator from '@/pages/navigator/Navigator';
 
 // 配套平台
-import ParkCompleteSet from '@/pages/navigator/parkCompleteSet/ParkCompleteSet';
-import Activity from '@/pages/navigator/parkCompleteSet/completeSet/Activity';
-import ExclusiveActivities from '@/pages/navigator/parkCompleteSet/completeSet/ExclusiveActivities';
-import FoodCourt from '@/pages/navigator/parkCompleteSet/completeSet/FoodCourt';
-import SubmitFoods from '@/pages/navigator/parkCompleteSet/completeSet/Submit';
-import ActivityDetails from '@/pages/navigator/parkCompleteSet/completeSetdetails/ActivityDetails';
-import ExclusiveActivitiesdetails from '@/pages/navigator/parkCompleteSet/completeSetdetails/ExclusiveActivitiesdetails';
-import Activityform from '@/pages/navigator/parkCompleteSet/activityform/Activityform';
+import ParkCompleteSet from '@/pages/navigator/ParkCompleteSet/ParkCompleteSet';
+import Activity from '@/pages/navigator/ParkCompleteSet/CompleteSet/Activity';
+import ExclusiveActivities from '@/pages/navigator/parkCompleteSet/CompleteSet/ExclusiveActivities';
+import FoodCourt from '@/pages/navigator/ParkCompleteSet/completeSet/FoodCourt';
+import SubmitFoods from '@/pages/navigator/ParkCompleteSet/CompleteSet/Submit';
+import ActivityDetails from '@/pages/navigator/ParkCompleteSet/CompleteSetdetails/ActivityDetails';
+import ExclusiveActivitiesdetails from '@/pages/navigator/ParkCompleteSet/CompleteSetdetails/ExclusiveActivitiesdetails';
+import Activityform from '@/pages/navigator/ParkCompleteSet/activityform/Activityform';
 
 // 通知
 import Notifications from '@/pages/navigator/notifications/Notifications';
