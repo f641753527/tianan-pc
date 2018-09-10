@@ -14,8 +14,8 @@ import Navigator from '@/pages/navigator/Navigator';
 // 配套平台
 import ParkCompleteSet from '@/pages/navigator/ParkCompleteSet/ParkCompleteSet';
 import Activity from '@/pages/navigator/ParkCompleteSet/CompleteSet/Activity';
-import ExclusiveActivities from '@/pages/navigator/parkCompleteSet/CompleteSet/ExclusiveActivities';
-import FoodCourt from '@/pages/navigator/ParkCompleteSet/completeSet/FoodCourt';
+import ExclusiveActivities from '@/pages/navigator/ParkCompleteSet/CompleteSet/ExclusiveActivities';
+import FoodCourt from '@/pages/navigator/ParkCompleteSet/CompleteSet/FoodCourt';
 import SubmitFoods from '@/pages/navigator/ParkCompleteSet/CompleteSet/Submit';
 import ActivityDetails from '@/pages/navigator/ParkCompleteSet/CompleteSetdetails/ActivityDetails';
 import ExclusiveActivitiesdetails from '@/pages/navigator/ParkCompleteSet/CompleteSetdetails/ExclusiveActivitiesdetails';
