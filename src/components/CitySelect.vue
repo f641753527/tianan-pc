@@ -22,7 +22,7 @@
 *  省 市 区/县城  三联动选择器
 */
 import Vue from 'vue';
-import LocalProvinceList from './provinceList';
+import LocalProvinceList from '../../static/provinceList.js';
 
 export default {
   data() {
