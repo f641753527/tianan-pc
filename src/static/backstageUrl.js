@@ -1,6 +1,6 @@
 export default {
-  parkUrl: 'https://park.ta-dev.it-works.com.cn',
-  corpUrl: 'https://crop.ta-dev.it-works.com.cn',
-  apiUrl: 'https://api.ta-dev.it-works.com.cn',
-  wxUrl: 'https://wx.ta-dev.it-works.com.cn',
+  parkUrl: 'http://park.ta-dev.it-works.com.cn',
+  corpUrl: 'http://crop.ta-dev.it-works.com.cn',
+  apiUrl: 'http://api.ta-dev.it-works.com.cn',
+  wxUrl: 'http://wx.ta-dev.it-works.com.cn',
 };
